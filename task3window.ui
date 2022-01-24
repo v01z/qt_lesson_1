@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>task3</class>
+ <widget class="QDialog" name="task3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>617</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>task 3</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>571</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>front-end of 'task 3'</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEditSrc">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>531</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>Some text.</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEditDest">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>531</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>This is that 'bottom located TextEdit'.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string> Add text to the bottom located TextEdit</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="replaceButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>220</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Replace text on the bottom located TextEdit</string>
+    </property>
+    <property name="text">
+     <string>Replace</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="htmlButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>220</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string> Add HTML code to the bottom located TextEdit</string>
+    </property>
+    <property name="text">
+     <string>Add HTML</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>480</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Close window</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>plainTextEditSrc</tabstop>
+  <tabstop>addButton</tabstop>
+  <tabstop>replaceButton</tabstop>
+  <tabstop>plainTextEditDest</tabstop>
+  <tabstop>closeButton</tabstop>
+  <tabstop>htmlButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
